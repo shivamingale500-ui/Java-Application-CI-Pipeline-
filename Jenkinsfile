@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: ''
+                    url: 'https://github.com/shivamingale500-ui/Java-Application-CI-Pipeline-.git'
             }
         }
  
