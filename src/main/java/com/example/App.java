@@ -20,7 +20,7 @@ public class App {
 
             String response =
 
-                    "Hello from Java application running inside Docker!";
+                    "Hello from Java application running inside Docker: version v1.1!";
 
             exchange.sendResponseHeaders(200, response.length());
 
@@ -34,7 +34,7 @@ public class App {
 
         server.start();
 
-        System.out.println("Server started on port 8080");
+        System.out.println("Server started on port 8082");
 
     }
 
