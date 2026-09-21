@@ -22,7 +22,7 @@ pipeline {
         ECS_SERVICE = 'ecs-defination-service-o4xola2t'
         
         ECS_TASK_FAMILY = 'ecs-defination' 
-        CONTAINER_NAME  = 'docker-java-demo' 
+        CONTAINER_NAME  = 'java-app-container' 
 
         // Docker image
         IMAGE_TAG = "${BUILD_NUMBER}"
