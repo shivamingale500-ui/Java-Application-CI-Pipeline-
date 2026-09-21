@@ -13,7 +13,7 @@ pipeline {
         AWS_ACCOUNT_ID = '193131272475'
 
         // ECR
-        ECR_REPOSITORY = 'jdocker-java-demo'
+        ECR_REPOSITORY = 'docker-java-demo'
         ECR_REGISTRY   = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com"
         ECR_URI        = "${ECR_REGISTRY}/${ECR_REPOSITORY}"
 
