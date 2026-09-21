@@ -20,7 +20,7 @@ public class App {
 
             String response =
 
-                    "Hello from Java application running inside Docker: version v1.1!";
+                    "Hello from Java this is the another application running inside Docker: version v1.1!";
 
             exchange.sendResponseHeaders(200, response.length());
 
